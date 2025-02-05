@@ -1,0 +1,27 @@
+{
+  "name": "eleventy-base-reveal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "start": "eleventy --serve",
+    "watch": "npx @11ty/eleventy --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chchabin/eleventy-base-reveal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chchabin/eleventy-base-reveal/issues"
+  },
+  "homepage": "https://github.com/chchabin/eleventy-base-reveal#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "reveal.js": "^5.1.0"
+  }
+}

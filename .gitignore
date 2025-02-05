@@ -1,0 +1,14 @@
+.idea/
+# Dossiers générés
+_site/
+node_modules/
+
+# Fichiers de cache
+.cache/
+
+# Fichiers d'environnement
+.env
+
+# Fichiers système
+.DS_Store
+Thumbs.db
