@@ -1,23 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/reveal.js/reveal.css">
     <link rel="stylesheet" href="/reveal.js/theme/black.css">
+    <link rel="stylesheet" href="/reveal.js/plugin/highlight/monokai.css">
+    <link rel="stylesheet" href="/styles/custom.css">
 </head>
 <body>
 <div class="reveal">
-    <div class="slides">
-        {%- for slide in content | splitSlides -%}
-            <section>{{ slide | safe }}</section>
-        {%- endfor -%}
+    <div class="slides preserve-markdown">
+        {{ content | splitSlides | safe }}
     </div>
 </div>
-<script src="/reveal.js/reveal.js"></script>
-<script>
-    Reveal.initialize();
-</script>
+<script src="/mermaid/mermaid.min.js"></script>
+<script src="/scripts/bundle.js" type="module"></script>
 </body>
-</html>

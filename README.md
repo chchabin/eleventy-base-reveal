@@ -4,7 +4,7 @@
 
 ```
 npm init -y
-npm install @11ty/eleventy reveal.js --save-dev
+npm i --save-dev @11ty/eleventy reveal.js mermaid  markdown-it esbuild
 ```
 
 Pour lancer le programme 
