@@ -5,7 +5,7 @@ module.exports = function(eleventyConfig) {
     // Configurez markdown-it
     const markdownLibrary = markdownIt({
         html: true,
-        breaks: true,
+        breaks: false,
         linkify: true,
     })
 
