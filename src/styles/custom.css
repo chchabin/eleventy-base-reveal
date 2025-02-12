@@ -1,0 +1,11 @@
+.reveal .mermaid {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.reveal .mermaid svg {
+    background-color: white;
+}
+
+
